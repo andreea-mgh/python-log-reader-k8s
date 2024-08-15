@@ -4,6 +4,7 @@ metadata:
   name: python-log-reader
   labels:
     app: python-log-reader
+  namespace: python-log-reader-namespace
 spec:
   selector:
     app: python-log-reader
